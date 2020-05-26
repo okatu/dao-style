@@ -38,6 +38,7 @@
           :value="currentValue"
           :required="isRequired"
           ref="input"
+          autocomplete="new-password"
           @input="handleInput"
           @focus="handleFocus"
           @blur="handleBlur"
